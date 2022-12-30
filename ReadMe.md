@@ -1,10 +1,10 @@
 # CONSTELLATION
 
-**CHOSEN PROJECT**
+**CHOSEN PROJECT**  
 For this Capstone I chose Option 1: Create a project of my choice.
 Please see the "About" section for more details.
 
-**TO BUILD**
+**TO BUILD**  
 1). Two external libraries are needed: SDL2 and SDL_Image.
 
 To Install SDL2:
@@ -23,7 +23,7 @@ Other: I recommend the installation instructions outlined on the page https://la
 5.) cmake ..
 6.) make
 
-**TO RUN**
+**TO RUN**  
 1.) Copy input.txt and satellites.txt from the "examples" folder into the build directory
 2.) cd into the build folder and run ./Constellation
 
@@ -31,7 +31,7 @@ The example files provided have some interesting and notable satellites preset f
 
 For setting satellite colors, I recommend pulling the RGB values from the following site: https://htmlcolorcodes.com/color-picker/
 
-**ABOUT**
+**ABOUT**  
 Hello! Thank you for evaluating my project!
 Constellation is a satellite orbit propagator. It assumes a spherical, rotating Earth and displays the ground tracks of propagated orbits on a 2D map.
 
@@ -39,7 +39,7 @@ Inputs are read from two text files. Inputs.txt controls simulation parameters s
 
 This is a true propagator. It uses math and physics to propagate orbits. It does not take shortcuts nor does it call external libraries to do this. For more on how it works, you may see the PROPAGATOR DETAILS below.
 
-**FILE AND CLASS STRUCTURE**
+**FILE AND CLASS STRUCTURE**  
 All code is in the "src" folder. All images are in the "resources" folder. Once the user creates the build folder (see section "TO RUN"), they must place an inputs.txt and a satellites.txt in this folder (again, see section "TO RUN"). The other notable folder is cmake_modules, which contains a .cmake file that locates the SDL2_image library on the system.
 
 main.cpp            - Contains the main() function. Kicks off satellite simulation and manages rendering/animation.
@@ -51,7 +51,7 @@ error.h             - For displaying SDL errors.
 resource_path.h     - For dynamically generating the path to the resource folder.
 texture.h           - For loading and configuring SDL textures.
 
-**SELECTED CRITERIA**
+**SELECTED CRITERIA**  
 1.) The project reads data from a file and processes the data, or the program writes data to a file
 - input_parser.cpp/.h reads from two text files and is called in main.cpp on lines 23 and 26
 2.) The project uses Object Oriented Programming techniques
@@ -67,20 +67,20 @@ texture.h           - For loading and configuring SDL textures.
 5.) A mutex or lock is used in the project
 - A mutex is used to protect terminal write statements. Examples are on lines 391 and 405 of satellite.cpp
 
-**OTHER CRITERIA**
+**OTHER CRITERIA**  
 Below is extra criteria I feel this project meets
 1.) The project demonstratees an understanding of C++ functions and control structures
 2.) Classes use appropriate access specifiers for class members
 3.) Classes encapsulate behavior
 
-**PROPAGATOR DETAILS**
+**PROPAGATOR DETAILS**  
 The user inputs the initial state of the satellite in Keplerian elements. The satellite is then propagated forward for each timestep. The orbital state at each point is converted to Earth-Centered Intertial (ECI) coordinates, then to Earth-Centered Fixed (ECF) coordinates. This ECI-to-ECF conversion is what accounts for the rotation of the Earth. From there, the ECF coordinates are converted to Latitude/Longitude/Altitude. Since this is a 2D display, we ignore the altitude and continue by converting the lat/lon coordinates into screen X and Y pixel coordinates.
 The animation runs at the FPS that is set by the user in inputs.txt. If not enough time has passed since the next frame must be displayed, the system will sleep up to the time the next loop iteration is supposed to start.
 
-**FINAL NOTE**
+**FINAL NOTE**  
 You may notice some functions that have been written, but are never called. This code is for future additions I have planned for Constellation.
 
-**ACKNOWLEDGEMENTS**
+**ACKNOWLEDGEMENTS**  
 I would like to credit the following sources for helping me in this project. Sources that helped with portions of code are also listed in comments next to that particular code.
 
 NASA Visible Earth Image Collection
