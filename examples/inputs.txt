@@ -1,0 +1,4 @@
+fps = 120      # Frames per Second
+timestep = 60  # Seconds
+start_time = 0 # Hours
+end_time = 48  # Hours

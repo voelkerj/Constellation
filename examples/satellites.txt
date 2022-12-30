@@ -1,0 +1,63 @@
+name = ISS
+color = 255 0 100                # Red Green Blue
+eccentricity = 0.0003591
+semi-major_axis = 6794.6         # km
+inclination = 51.6431            # deg
+RAAN = 142.6575                  # deg
+argument_of_periapsis = 168.8402 # deg
+
+#name = Starlink-3277
+#color = 164 226 255
+#eccentricity = 0.0002177
+#semi-major_axis = 6917
+#inclination = 53.2171
+#RAAN = 29.1788
+#argument_of_periapsis = 330.9374
+
+#name = Semi-Sync_Inclined
+#color = 255 120 0
+#eccentricity = 0
+#semi-major_axis = 21082
+#inclination = 51.6431
+#RAAN = 0
+#argument_of_periapsis = 0
+
+#name = GEO_Inclined
+#color = 96 236 104
+#eccentricity = 0.5
+#semi-major_axis = 42164
+#inclination = 51.6431
+#RAAN = 0
+#argument_of_periapsis = 0
+
+#name = HEO
+#color = 0 210 255
+#eccentricity = 0
+#semi-major_axis = 60000
+#inclination = 51.6431
+#RAAN = 0
+#argument_of_periapsis = 0
+
+#name = Molniya
+#color = 0 175 255
+#eccentricity = 0.74
+#semi-major_axis = 26600
+#inclination = 63.4
+#RAAN = 40
+#argument_of_periapsis = 270
+
+#name = Polar
+#color = 47 234 197
+#eccentricity = 0
+#semi-major_axis = 42164
+#inclination = 90
+#RAAN = 0
+#argument_of_periapsis = 0
+
+#name = Tundra
+#color = 223 47 234
+#eccentricity = 0.7
+#semi-major_axis = 42164
+#inclination = 63.4
+#RAAN = 180
+#argument_of_periapsis = 270

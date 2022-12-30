@@ -1,0 +1,1 @@
+/usr/bin/g++-7  -std=c++17 -g   CMakeFiles/Constellation.dir/src/main.cpp.o CMakeFiles/Constellation.dir/src/satellite.cpp.o CMakeFiles/Constellation.dir/src/math_helpers.cpp.o  -o Constellation -L/usr/lib/x86_64-linux-gnu  -lSDL2 /usr/lib/x86_64-linux-gnu/libSDL2_image.so 
