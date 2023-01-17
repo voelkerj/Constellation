@@ -64,5 +64,6 @@
         "string": "cpp",
         "*.ipp": "cpp",
         "regex": "cpp"
-    }
+    },
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools"
 }

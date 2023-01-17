@@ -1,0 +1,22 @@
+[
+{
+  "directory": "C:/Users/johnw/Code/Constellation/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/Constellation.dir/includes_CXX.rsp -O3 -DNDEBUG -o CMakeFiles\\Constellation.dir\\src\\main.cpp.obj -c C:\\Users\\johnw\\Code\\Constellation\\src\\main.cpp",
+  "file": "C:/Users/johnw/Code/Constellation/src/main.cpp"
+},
+{
+  "directory": "C:/Users/johnw/Code/Constellation/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/Constellation.dir/includes_CXX.rsp -O3 -DNDEBUG -o CMakeFiles\\Constellation.dir\\src\\input_parser.cpp.obj -c C:\\Users\\johnw\\Code\\Constellation\\src\\input_parser.cpp",
+  "file": "C:/Users/johnw/Code/Constellation/src/input_parser.cpp"
+},
+{
+  "directory": "C:/Users/johnw/Code/Constellation/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/Constellation.dir/includes_CXX.rsp -O3 -DNDEBUG -o CMakeFiles\\Constellation.dir\\src\\math_helpers.cpp.obj -c C:\\Users\\johnw\\Code\\Constellation\\src\\math_helpers.cpp",
+  "file": "C:/Users/johnw/Code/Constellation/src/math_helpers.cpp"
+},
+{
+  "directory": "C:/Users/johnw/Code/Constellation/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/Constellation.dir/includes_CXX.rsp -O3 -DNDEBUG -o CMakeFiles\\Constellation.dir\\src\\satellite.cpp.obj -c C:\\Users\\johnw\\Code\\Constellation\\src\\satellite.cpp",
+  "file": "C:/Users/johnw/Code/Constellation/src/satellite.cpp"
+}
+]

@@ -1,3 +1,0 @@
-/home/workspace/constellation-industries/debug/CMakeFiles/rebuild_cache.dir
-/home/workspace/constellation-industries/debug/CMakeFiles/Constellation.dir
-/home/workspace/constellation-industries/debug/CMakeFiles/edit_cache.dir

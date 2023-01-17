@@ -255,7 +255,7 @@ float Satellite::calculateSensorConeProjectedArcLength()
     return arcLength;
 }
 
-std::vector<GeoCoords> Satellite::sensorConeLocusLatLons(float distance, float time)
+/*std::vector<GeoCoords> Satellite::sensorConeLocusLatLons(float distance, float time)
 {
     // this function adapted from: https://stackoverflow.com/questions/7222382/get-lat-long-given-current-point-distance-and-bearing
 
@@ -284,7 +284,7 @@ std::vector<GeoCoords> Satellite::sensorConeLocusLatLons(float distance, float t
 
         locus.push_back(temp_coords);
     }
-}
+}*/
 
 float Satellite::calculateMeanAnomaly(const float& time)
 {

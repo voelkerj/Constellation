@@ -1,0 +1,3 @@
+C:/Users/johnw/Code/Constellation/build/CMakeFiles/Constellation.dir
+C:/Users/johnw/Code/Constellation/build/CMakeFiles/edit_cache.dir
+C:/Users/johnw/Code/Constellation/build/CMakeFiles/rebuild_cache.dir
