@@ -73,60 +73,60 @@ CMakeFiles/Constellation.dir/src/main.cpp.obj: CMakeFiles/Constellation.dir/incl
 CMakeFiles/Constellation.dir/src/main.cpp.obj: C:/Users/johnw/Code/Constellation/src/main.cpp
 CMakeFiles/Constellation.dir/src/main.cpp.obj: CMakeFiles/Constellation.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\johnw\Code\Constellation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Constellation.dir/src/main.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Constellation.dir/src/main.cpp.obj -MF CMakeFiles\Constellation.dir\src\main.cpp.obj.d -o CMakeFiles\Constellation.dir\src\main.cpp.obj -c C:\Users\johnw\Code\Constellation\src\main.cpp
+	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Constellation.dir/src/main.cpp.obj -MF CMakeFiles\Constellation.dir\src\main.cpp.obj.d -o CMakeFiles\Constellation.dir\src\main.cpp.obj -c C:\Users\johnw\Code\Constellation\src\main.cpp
 
 CMakeFiles/Constellation.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Constellation.dir/src/main.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\johnw\Code\Constellation\src\main.cpp > CMakeFiles\Constellation.dir\src\main.cpp.i
+	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\johnw\Code\Constellation\src\main.cpp > CMakeFiles\Constellation.dir\src\main.cpp.i
 
 CMakeFiles/Constellation.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Constellation.dir/src/main.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\johnw\Code\Constellation\src\main.cpp -o CMakeFiles\Constellation.dir\src\main.cpp.s
+	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\johnw\Code\Constellation\src\main.cpp -o CMakeFiles\Constellation.dir\src\main.cpp.s
 
 CMakeFiles/Constellation.dir/src/input_parser.cpp.obj: CMakeFiles/Constellation.dir/flags.make
 CMakeFiles/Constellation.dir/src/input_parser.cpp.obj: CMakeFiles/Constellation.dir/includes_CXX.rsp
 CMakeFiles/Constellation.dir/src/input_parser.cpp.obj: C:/Users/johnw/Code/Constellation/src/input_parser.cpp
 CMakeFiles/Constellation.dir/src/input_parser.cpp.obj: CMakeFiles/Constellation.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\johnw\Code\Constellation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Constellation.dir/src/input_parser.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Constellation.dir/src/input_parser.cpp.obj -MF CMakeFiles\Constellation.dir\src\input_parser.cpp.obj.d -o CMakeFiles\Constellation.dir\src\input_parser.cpp.obj -c C:\Users\johnw\Code\Constellation\src\input_parser.cpp
+	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Constellation.dir/src/input_parser.cpp.obj -MF CMakeFiles\Constellation.dir\src\input_parser.cpp.obj.d -o CMakeFiles\Constellation.dir\src\input_parser.cpp.obj -c C:\Users\johnw\Code\Constellation\src\input_parser.cpp
 
 CMakeFiles/Constellation.dir/src/input_parser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Constellation.dir/src/input_parser.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\johnw\Code\Constellation\src\input_parser.cpp > CMakeFiles\Constellation.dir\src\input_parser.cpp.i
+	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\johnw\Code\Constellation\src\input_parser.cpp > CMakeFiles\Constellation.dir\src\input_parser.cpp.i
 
 CMakeFiles/Constellation.dir/src/input_parser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Constellation.dir/src/input_parser.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\johnw\Code\Constellation\src\input_parser.cpp -o CMakeFiles\Constellation.dir\src\input_parser.cpp.s
+	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\johnw\Code\Constellation\src\input_parser.cpp -o CMakeFiles\Constellation.dir\src\input_parser.cpp.s
 
 CMakeFiles/Constellation.dir/src/math_helpers.cpp.obj: CMakeFiles/Constellation.dir/flags.make
 CMakeFiles/Constellation.dir/src/math_helpers.cpp.obj: CMakeFiles/Constellation.dir/includes_CXX.rsp
 CMakeFiles/Constellation.dir/src/math_helpers.cpp.obj: C:/Users/johnw/Code/Constellation/src/math_helpers.cpp
 CMakeFiles/Constellation.dir/src/math_helpers.cpp.obj: CMakeFiles/Constellation.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\johnw\Code\Constellation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Constellation.dir/src/math_helpers.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Constellation.dir/src/math_helpers.cpp.obj -MF CMakeFiles\Constellation.dir\src\math_helpers.cpp.obj.d -o CMakeFiles\Constellation.dir\src\math_helpers.cpp.obj -c C:\Users\johnw\Code\Constellation\src\math_helpers.cpp
+	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Constellation.dir/src/math_helpers.cpp.obj -MF CMakeFiles\Constellation.dir\src\math_helpers.cpp.obj.d -o CMakeFiles\Constellation.dir\src\math_helpers.cpp.obj -c C:\Users\johnw\Code\Constellation\src\math_helpers.cpp
 
 CMakeFiles/Constellation.dir/src/math_helpers.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Constellation.dir/src/math_helpers.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\johnw\Code\Constellation\src\math_helpers.cpp > CMakeFiles\Constellation.dir\src\math_helpers.cpp.i
+	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\johnw\Code\Constellation\src\math_helpers.cpp > CMakeFiles\Constellation.dir\src\math_helpers.cpp.i
 
 CMakeFiles/Constellation.dir/src/math_helpers.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Constellation.dir/src/math_helpers.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\johnw\Code\Constellation\src\math_helpers.cpp -o CMakeFiles\Constellation.dir\src\math_helpers.cpp.s
+	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\johnw\Code\Constellation\src\math_helpers.cpp -o CMakeFiles\Constellation.dir\src\math_helpers.cpp.s
 
 CMakeFiles/Constellation.dir/src/satellite.cpp.obj: CMakeFiles/Constellation.dir/flags.make
 CMakeFiles/Constellation.dir/src/satellite.cpp.obj: CMakeFiles/Constellation.dir/includes_CXX.rsp
 CMakeFiles/Constellation.dir/src/satellite.cpp.obj: C:/Users/johnw/Code/Constellation/src/satellite.cpp
 CMakeFiles/Constellation.dir/src/satellite.cpp.obj: CMakeFiles/Constellation.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\johnw\Code\Constellation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Constellation.dir/src/satellite.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Constellation.dir/src/satellite.cpp.obj -MF CMakeFiles\Constellation.dir\src\satellite.cpp.obj.d -o CMakeFiles\Constellation.dir\src\satellite.cpp.obj -c C:\Users\johnw\Code\Constellation\src\satellite.cpp
+	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Constellation.dir/src/satellite.cpp.obj -MF CMakeFiles\Constellation.dir\src\satellite.cpp.obj.d -o CMakeFiles\Constellation.dir\src\satellite.cpp.obj -c C:\Users\johnw\Code\Constellation\src\satellite.cpp
 
 CMakeFiles/Constellation.dir/src/satellite.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Constellation.dir/src/satellite.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\johnw\Code\Constellation\src\satellite.cpp > CMakeFiles\Constellation.dir\src\satellite.cpp.i
+	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\johnw\Code\Constellation\src\satellite.cpp > CMakeFiles\Constellation.dir\src\satellite.cpp.i
 
 CMakeFiles/Constellation.dir/src/satellite.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Constellation.dir/src/satellite.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\johnw\Code\Constellation\src\satellite.cpp -o CMakeFiles\Constellation.dir\src\satellite.cpp.s
+	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\johnw\Code\Constellation\src\satellite.cpp -o CMakeFiles\Constellation.dir\src\satellite.cpp.s
 
 # Object files for target Constellation
 Constellation_OBJECTS = \
