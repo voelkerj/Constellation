@@ -1,0 +1,15 @@
+name = X-37B
+color = 255 0 100                # Red Green Blue
+eccentricity = 0.768 # e = (r_a - r_p) / (r_a + r_p) = 45544.435 / 59266.041 = 0.768
+semi-major_axis = 29633.0205 # a = (r_a + r_p) / 2 = 29633.0205 km        # km
+inclination = 59.1            # deg
+RAAN = 0                  # deg
+argument_of_periapsis = 0 # deg
+
+# Perigee: 300 miles altitude (482.803 km)
+# Apogee: 28600 miles altitude (46027.238 km)
+
+# R_E = 6378 km
+
+# r_p = 6378 + 482.803 = 6860.803 km
+# r_a = 6378 + 46027.238 = 52405.238 km
